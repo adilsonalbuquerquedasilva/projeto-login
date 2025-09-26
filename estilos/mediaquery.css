@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background: linear-gradient(to top, rgb(115, 150, 115), rgb(129, 83, 129));
+    }
+
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100vh;
+        background-position: center center;
+    }
+
+    main{
+        width: 80vw;
+    }
+
+    #formulario{
+        width: 70%;
+        float: right;
+    }    
+}
+
+@media screen and (min-width: 950px) {
+    body{
+        background: linear-gradient(to top, rgb(115, 150, 115), rgb(129, 83, 129));
+    }
+    main{
+        width: 80vw;
+    }
+
+    #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-position: right bottom;
+    }
+
+    #formulario{
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+}
