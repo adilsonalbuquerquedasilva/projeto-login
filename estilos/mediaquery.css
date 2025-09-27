@@ -14,20 +14,27 @@
 
     main{
         width: 80vw;
+        height: 310px;
     }
 
     #formulario{
         width: 70%;
         float: right;
-    }    
+    }
+    
+    #formulario p{
+        margin: 10px 0;
+        font-size: 1em;
+    }
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 992px){
     body{
         background: linear-gradient(to top, rgb(115, 150, 115), rgb(129, 83, 129));
     }
     main{
         width: 80vw;
+        height: 320px;
     }
 
     #imagem{
@@ -41,5 +48,14 @@
         width: 50%;
         height: 100%;
         float: left;
+    }
+
+    #formulario h1{
+        font-size: 2em;
+    }
+
+    #formulario p{
+        font-size: 1em;
+        margin: 10px 0;
     }
 }

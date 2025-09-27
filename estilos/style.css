@@ -26,7 +26,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
-    height: 500px;
+    height: 520px;
     background: white;
     border-radius: 10px;
     overflow: hidden;
@@ -37,4 +37,91 @@ main{
     padding: 10px;
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+}
+
+#formulario h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario p{
+    font-size: 0.8em;
+}
+
+.campo{
+    background-color: rgb(99, 2, 99);
+    border-radius: 10px;
+    height: 40px;
+    margin: 5px 0;
+}
+
+.campo label{
+    display: none;
+}
+
+#img-person{
+    width: 30px;
+    filter: invert();
+    margin: 8px 0 0 5px;
+}
+
+form input[type=email]{
+    width: calc(100% - 41px);
+    transform: translateY(-12.4px);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+#img-key{
+    width: 30px;
+    filter: invert();
+    margin: 8px 0 0 5px;
+}
+
+form input[type=password]{
+    color: white;
+    width: calc(100% - 41px);
+    transform: translateY(-12.4px);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+/*
+.campo input:focus-within{
+    background-color: white;
+}*/
+
+form input[type=submit]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    background-color: rgb(21, 128, 86);
+    color: white;
+    &:hover{
+        background-color: rgb(60, 173, 130);
+    }
+}
+
+form a img{
+    width: 18px;
+}
+
+form a{
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 7px;
+    padding-top: 5px;
+    text-decoration: none;
+    height: 40px;
+    border: 2px solid rgb(60, 173, 130);
+    &:hover{
+        background-color: rgb(60, 173, 130);
+        color: white;
+    }
 }
