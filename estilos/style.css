@@ -65,13 +65,6 @@ main{
     margin: 8px 0 0 5px;
 }
 
-form input[type=email]{
-    width: calc(100% - 41px);
-    transform: translateY(-12.4px);
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-}
 
 #img-key{
     width: 30px;
@@ -79,13 +72,13 @@ form input[type=email]{
     margin: 8px 0 0 5px;
 }
 
-form input[type=password]{
+.campo input{
     color: white;
     width: calc(100% - 41px);
-    transform: translateY(-12.4px);
     border-radius: 10px;
     padding: 10px;
     border: none;
+    transform: translateY(-12.4px);
 }
 
 /*
